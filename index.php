@@ -22,7 +22,7 @@
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
     <meta name="salesforce-mask-redirects" content="<?php echo getenv('SALESFORCE_MASK_REDIRECTS');?>">
-    <meta name="salesforce-server-starturl" content="https://bulkdemo-developer-edition.ap24.force.com/ExternalID/s/login&startURL=%2Fservices%2Foauth2%2Fauthorize%3Fresponse_type%3Dtoken%26client_id%3D3MVG9fe4g9fhX0E4jdnRdSUz8m.3eEkphBViVYtfDs4WLyh6usaAt4kBkbo0eldATsFgQ1BirAV0enelqUbT5%26redirect_uri%3Dhttps%253A%252F%252Fembeddedbulkuser1.herokuapp.com%252F_callback.php%26state%3Dhttps%253A%252F%252Fembeddedbulkuser1.herokuapp.com%252F">
+    <meta name="salesforce-server-starturl" content="https://bulkdemo-developer-edition.ap24.force.com/ExternalID/s/login?startURL=%2Fservices%2Foauth2%2Fauthorize%3Fresponse_type%3Dtoken%26client_id%3D3MVG9fe4g9fhX0E4jdnRdSUz8m.3eEkphBViVYtfDs4WLyh6usaAt4kBkbo0eldATsFgQ1BirAV0enelqUbT5%26redirect_uri%3Dhttps%253A%252F%252Fembeddedbulkuser1.herokuapp.com%252F_callback.php%26state%3Dhttps%253A%252F%252Fembeddedbulkuser1.herokuapp.com%252F">
 	<link href="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
   </head>
